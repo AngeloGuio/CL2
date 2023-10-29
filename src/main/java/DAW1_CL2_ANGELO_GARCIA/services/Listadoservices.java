@@ -9,19 +9,13 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor
-public class EstadoListado {
+public class Listadoservices {
 
     private ListadoRepository listadoRepository;
 
-    public List<Listado> listarEstados(){
+    public List<Listado> listarProducto(){
         return listadoRepository.findAll();
     }
 
-    public boolean registrarEstado(Listado listado){
-        return listadoRepository.save(listado) != null;
-    }
 
-    public void  eliminarEstado(Integer idproducto){
-        listadoRepository.deleteById(idproducto);
-    }
 }

@@ -1,4 +1,4 @@
-package DAW1_CL2_ANGELO_GARCIA.Producto;
+package DAW1_CL2_ANGELO_GARCIA.services;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
